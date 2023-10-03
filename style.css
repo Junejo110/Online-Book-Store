@@ -1,0 +1,389 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+.navbar a {
+    font-family: 'Poppins', sans-serif;
+    font-size: 25px;
+}
+.logo{
+ height: 80px;
+}
+form{
+    background-color:cornsilk;
+    opacity: 0.9;
+    font-family: 'Poppins', sans-serif;
+    border-radius: 10px;    
+    max-width: 80rem;
+    margin: 0 auto; /* This centers the form horizontally */
+    padding: 20px; /* Add some padding for better spacing */
+    width: 60%;
+}
+.bg{
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    position:absolute;
+    opacity: 0.9;
+    
+}
+.bg-img{
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    position:absolute;
+    opacity: 0.9;
+}
+/* Center the search box */
+.center-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  /* Style for the search box */
+.search-form {
+  width: 100%;
+  max-width: 30rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+}
+
+/* Styling for the input field */
+.search-form input[type="text"] {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  font-size: 16px;
+}
+
+
+
+
+  
+  .pdf-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  .card-container {
+    display: flex;
+    flex-wrap: wrap;
+    
+    align-items: stretch;   
+}
+
+  .card {
+    border: 1px solid #e5e5e5;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+    width: 300px;
+    opacity: 0.9;
+    max-width: 200%;
+    margin: 0 auto;
+    padding: 10px;
+   
+  }
+
+  .card:hover {
+    transform: translateY(-10px);
+  }
+
+  .card-img-top {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    object-fit: contain;
+    height: 300px;
+  }
+
+  
+
+  .card-title {
+    font-size: 1.25rem;
+    margin-bottom: 10px;
+  }
+
+  .card-text {
+    font-size: 0.875rem;
+    color: #555;
+    margin-bottom: 15px;
+  }
+
+  .btn {
+    font-size: 0.875rem;
+    padding: 8px 16px;
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-weight: bold;
+    transition: background-color 0.2s;
+  }
+
+  .btn-success {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    margin-right: 10px;
+  }
+
+  .btn-success:hover {
+    background-color: #218838;
+  }
+
+  .btn-success:active {
+    background-color: #1e7e34;
+  }
+  .category .list-group{
+    width: 200px;
+    margin-top: 40px;
+  }
+  .pdf-list .card {
+    height: 100%;
+}
+.nd{
+  text-decoration: none;
+}
+img.img-fluid {
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  opacity: 0.9;
+}
+.book-box {
+  background-color: cornsilk;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  opacity: 0.9;
+  font-family:  'Poppins', sans-serif;
+}
+
+h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+p {
+  margin-bottom: 5px;
+}
+
+a.btn {
+  margin-right: 10px;
+}
+.container {
+  max-width: 1000px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.icon {
+  border: 2px solid #3498db; /* Add border to the icons */
+  border-radius: 50%; /* Make the border circular */
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  font-size: 20px;
+  color: #3498db;
+  margin: 0 auto;
+}
+
+/* Container and section styling */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+/* Add this CSS to your existing styles or styles.css file */
+ .img {
+  height: 60%; /* Adjust the width and height as needed */
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 10px; 
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  background-color: whitesmoke;
+  margin-top: 150px;
+  opacity: 0.9;
+}
+/* Add this CSS to your existing styles or styles.css file */
+.contact-me {
+  opacity: 0.9;
+  background-color: #f8f8f8;
+}
+
+.contact-me h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.contact-me p {
+  font-size: 16px;
+  line-height: 1.6;
+  color: #333;
+  font-family: 'Poppins', sans-serif;
+}
+
+.contact-details {
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  background-color: #fff;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  font-family: 'Poppins', sans-serif;
+}
+
+.contact-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.contact-item i {
+  font-size: 24px;
+  margin-right: 10px;
+  color: #3498db;
+}
+
+.contact-item a {
+  color: #3498db;
+  text-decoration: none;
+}
+
+.contact-item a:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 767px) {
+  .contact-item i {
+      font-size: 20px;
+  }
+}
+/* Add this CSS to your existing styles or styles.css file */
+
+.center-image {
+  display: block;
+  margin: 0 auto;
+  max-width: 20%;
+}
+
+.about-us-container {
+  padding: 40px;
+  background-color: #f8f8f8;
+  border-radius: 10px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  margin-top: 20px;
+}
+
+.about-us-container h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.about-us-container h3 {
+  font-size: 24px;
+  margin-top: 30px;
+  color: #3498db;
+}
+
+.about-us-container p {
+  font-size: 16px;
+  line-height: 1.6;
+  color: #666;
+}
+
+@media (max-width: 767px) {
+  .center-image {
+      max-width: 40%;
+  }
+
+  .about-us-container {
+      padding: 20px;
+  }
+}
+/* Add this CSS to your existing styles or styles.css file */
+
+.center-image {
+  display: block;
+  margin: 0 auto;
+  max-width: 20%;
+}
+
+.about-us-container {
+  padding: 40px;
+  background-color: #f8f8f8;
+  border-radius: 10px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  margin-top: 20px;
+}
+
+.about-us-container h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.about-us-container h3 {
+  font-size: 24px;
+  margin-top: 30px;
+  color: #3498db;
+}
+
+.about-us-container p {
+  font-size: 16px;
+  line-height: 1.6;
+  color: #666;
+}
+
+
+
+  .about-us-container {
+      padding: 30px;
+  }
+
+
+
+
+  .about-us-container {
+      padding: 20px;
+  }
+
+
+
+  .about-us-container {
+      padding: 15px;
+  }
+
+body {
+  background-color: cornsilk; /* Set your desired background color here */
+}
+
+
+.my-element {
+  box-sizing: content-box; /* Or use border-box if that's your intention */
+  max-width: 60rem;
+}
+.logout-message {
+  margin-top: 10px;
+  padding: 10px;
+  background-color: lightseagreen;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  box-shadow: #333;
+  text-align: center;
+}
+#preloader{
+  background: #67d493 url(./uploads/img/book.gif) no-repeat center;
+  height: 100vh;
+  width: 100%;
+  position: fixed;
+  z-index: 100;
+background-size: 20%;
+opacity: 0.9;
+}
+.hidden-iframe {
+  display: none;
+}
